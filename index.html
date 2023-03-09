@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
     <title>Contato</title>
 </head>
 <body>
-    <h1>Formulario de contato</h1>
-    <form id="contact-form">
-        <div>
+    <form id="contact-form" class=" form-wrapper">
+        <h1 class="tittle" >Formulario de contato</h1>
+        <div >
             <label for="name">Nome</label>
-            <input id="name" type="text" name="name">
+            <input class="input-area" type="text" name="name" required>
         </div>
         <div>
             <label for="email">E-mail</label>
-            <input id="email" type="text" name="email">
+            <input class="input-area" type="email" name="email" required>
         </div> 
         <div>
-            <label for="message">Menssagem</label>
-            <textarea name="massage"></textarea>
+            <label for="email">Menssagem</label>
+            <textarea class="textarea" required></textarea>
         </div>
-        <button type="submit">Enviar</button>  
+        <button class="btn" type="submit">Enviar</button>  
     </form>
     <script src="script.js"></script>
 </body>
