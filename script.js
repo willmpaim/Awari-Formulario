@@ -7,7 +7,7 @@ function handleContactSubmit(event) {
 
     const name = contactForm.elements["name"].value;
     const email = contactForm.elements["email"].value;
-    const message = contactForm.elements["message"].value;
+    const message = contactForm.elements["massage"].value;
 
     const result = `Nome: ${name} \nE-mail: ${email} \nMensagem: ${message}`;
 
